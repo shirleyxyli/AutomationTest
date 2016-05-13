@@ -1,0 +1,5 @@
+CepinPage:
+ input_id_account: useraccount
+ input_id_password: userpassword
+ login_xpath: /html/body/div[3]/div[2]/div/div[3]/div[1]/div[4]/a
+ exit_xpath: /html/body/div[2]/div/div[2]/ul/li[1]/a

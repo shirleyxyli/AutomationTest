@@ -1,0 +1,29 @@
+
+local_firefox:
+  RunAt: local
+  BrowserName: firefox
+  Version: 38
+  Platform: windows
+
+local_IE:
+  RunAt: local
+  BrowserName: IE
+  Platform: windows
+  Version: any
+
+local_chrome:
+  RunAt: local
+  BrowserName: chrome
+  Platform: windows
+  Version: any
+
+
+remote_firefox:
+  RunAt:  http://localhost:4444/wd/hub
+  BrowserName: firefox
+  Platform: any
+  Version: any
+
+
+RealEnv:
+  RealBrowser: local_chrome
